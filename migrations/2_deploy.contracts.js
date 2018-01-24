@@ -16,7 +16,7 @@ module.exports = function(deployer) {
       '100000000000000000000000000', // 100000000 Token
       '1000', // 1 ETH = 1000 Token
       '1504051200', // 30/08/2017
-      '1514592000', // 30/12/2017
+      '1576800000', // Friday 20th December 2019 07:00:00 AM
       '100000000000000000' // 0.1 ETH
     ).then(() => {
       return IcoToken.deployed().then(function(instance) {
